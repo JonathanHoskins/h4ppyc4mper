@@ -34,6 +34,10 @@ a:hover, a:focus {
   border-radius: 0px;
 }
 
+h1 {
+  word-wrap:break-word;
+}
+
 .dropdown-toggle{
   color:black;
 }
