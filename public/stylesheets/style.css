@@ -16,6 +16,24 @@ a {
   color:black;
 }
 
+a:hover, a:focus {
+  color: rgb(69, 244, 165);
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #ecf0f100;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: #ecf0f100;
+}
+
+.dropdown-menu {
+  background-color: #ecf0f100;
+  border: none;
+  border-radius: 0px;
+}
+
 .dropdown-toggle{
   color:black;
 }
@@ -29,5 +47,5 @@ a {
 }
 
 .panel-primary>.panel-heading{
-  background-color: rgba(118, 247, 229, 0.6); 
+  background-color: rgba(69, 244, 165, 0.6); 
 }
